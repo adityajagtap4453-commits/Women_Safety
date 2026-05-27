@@ -1,0 +1,46 @@
+name: women_safety_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #DEPENDENCIES WHICH IS MANUALLY ADDED
+  google_fonts: ^6.3.2
+  carousel_slider: ^5.1.1
+  webview_flutter: ^4.13.0
+  flutter_phone_direct_caller: ^2.2.1
+  url_launcher: ^6.3.2
+  firebase_auth: ^6.1.0
+  firebase_core: ^4.1.1
+  cloud_firestore: ^6.0.2
+  firebase_storage: ^13.0.2
+  shared_preferences: ^2.5.3
+  permission_handler: ^12.0.1
+  flutter_contacts: ^1.1.7
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  send_message: ^1.0.2
+  geocoding: ^3.0.0
+  geolocator: ^11.0.0
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.1
+  uuid: ^4.3.3
+  flutter_rating_bar: ^4.0.1
+  shake: ^3.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  #ASSETS WHICH IS MANUALLY ADDED
+  assets:
+    - assets/
+    - assets/images/
